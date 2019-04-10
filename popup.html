@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset='utf-8'>
+	<script src="popup.js"></script>
+	<title>mnmlurl - minimal url</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<div class="main">
+		<header>
+			<img src="icons/icon-48x48.png" alt="" style="height: 32px; margin-right: 8px;"><br>
+			<h2><a href="https://mnmlurl.ml" target="_blank">mnmlurl</a></h2>
+		</header>
+		<!--		<form class="form" action="javascript:void(0);">-->
+		<input type="url" id="urlinput" placeholder="paste a long url">
+		<div id="erbox"></div>
+		<input type="text" maxlength=20 id="custominput" placeholder="custom alias (optional)">
+		<button id="sbtn" type="submit" aria-label="shorten">
+			<span id="rotate" style="display: none;">◡</span>
+			<span id="status">shorten</span>
+		</button>
+		<!--		</form>-->
+		<div class="form" id="output" style="display: none">
+			<div id="alias"></div>
+			<input type="text" id="shortenedURL" placeholder="output" label="short url">
+			<div id="sucess"></div>
+		</div>
+		<!--
+		<footer>
+			<p>
+				<a href="https://github.com/liyasthomas/mnmlurl/issues/new" target="_blank" rel="noopener">🍩 open an issue</a>
+			</p>
+			<a href="https://liyas-thomas.firebaseapp.com" target="_blank" rel="noopener">made with 💜 by liyas thomas</a>
+		</footer>
+-->
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
