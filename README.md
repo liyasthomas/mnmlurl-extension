@@ -15,7 +15,7 @@ When I wrote this, only God and I understood what I was doing. Now, only God kno
 
 [![Build Status](https://travis-ci.org/liyasthomas/mnmlurl-extension.svg?branch=master)](https://travis-ci.org/liyasthomas/mnmlurl-extension) [![GitHub release](https://img.shields.io/github/release/liyasthomas/mnmlurl-extension/all.svg)](https://github.com/liyasthomas/mnmlurl-extension/releases/latest) [![repo size](https://img.shields.io/github/repo-size/liyasthomas/mnmlurl-extension.svg)](https://github.com/liyasthomas/mnmlurl-extension/archive/master.zip) [![license](https://img.shields.io/github/license/liyasthomas/mnmlurl-extension.svg)](https://github.com/liyasthomas/mnmlurl-extension/blob/master/LICENSE) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/liyasthomas/mnmlurl-extension/issues) [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=website)](https://liyas-thomas.firebaseapp.com) [![Donate](https://img.shields.io/badge/$-donate-ff69b4.svg)](https://www.paypal.me/liyascthomas)
 
-# <img src="https://raw.githubusercontent.com/liyasthomas/mnmlurl-extension/master/assets/icons/icon-48x48.png" alt="mnmlurl-extension" width="32"> mnmlurl-extension
+# <img src="https://raw.githubusercontent.com/liyasthomas/mnmlurl-extension/master/icons/icon-48x48.png" alt="mnmlurl-extension" width="32"> mnmlurl-extension
 
 ### :information_desk_person: Browser extension for mnmlurl by [Liyas Thomas](https://github.com/liyasthomas)
 
