@@ -78,6 +78,7 @@ input {
 button {
 	width: 100%;
 	height: 54px;
+	margin-bottom: 8px;
 	font-size: 18px;
 	cursor: pointer;
 	background: linear-gradient(120deg, #12c2e9, #c471ed, #f64f59);
