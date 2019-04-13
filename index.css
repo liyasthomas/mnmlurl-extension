@@ -1,3 +1,19 @@
+:root {
+	--primary-color: #302AE6;
+	--secondary-color: #536390;
+	--font-color: #424242;
+	--bg-color: #fff;
+	--heading-color: #292922;
+}
+
+[data-theme="dark"] {
+	--primary-color: #9A97F3;
+	--secondary-color: #818cab;
+	--font-color: #e1e1ff;
+	--bg-color: #161625;
+	--heading-color: #818cab;
+}
+
 @font-face {
 	font-family: 'Nunito';
 	font-display: fallback;
@@ -18,6 +34,8 @@ body {
 	-webkit-user-select: none;
 	user-select: none;
 	text-align: center;
+	background-color: var(--bg-color);
+	color: var(--font-color);
 }
 
 a {
@@ -51,6 +69,12 @@ input {
 	width: 100%;
 	font-size: 16px;
 	font-weight: bold;
+	background-color: var(--bg-color);
+	color: var(--font-color);
+}
+
+svg {
+	fill: var(--font-color);
 }
 
 #erbox,
@@ -61,15 +85,15 @@ input {
 }
 
 #erbox {
-	background: linear-gradient(120deg, #ff416c, #ff4b2b);
+	background-color: #f44336;
 }
 
 #alias {
-	background: linear-gradient(120deg, #1fa2ff, #12d8fa, #a6ffcb);
+	background-color: #58DE71;
 }
 
 #sucess {
-	background: linear-gradient(120deg, #1fa2ff, #12d8fa, #a6ffcb);
+	background-color: #58DE71;
 }
 
 button {
@@ -91,4 +115,62 @@ button {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+#go-to-options {
+	cursor: pointer;
+}
+
+.theme-switch-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.theme-switch {
+	display: inline-block;
+	height: 34px;
+	position: relative;
+	width: 60px;
+}
+
+.theme-switch input {
+	display: none;
+}
+
+.slider {
+	background-color: #ccc;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: .4s;
+}
+
+.slider:before {
+	background-color: #fff;
+	bottom: 4px;
+	content: "";
+	height: 26px;
+	left: 4px;
+	position: absolute;
+	transition: .4s;
+	width: 26px;
+}
+
+input:checked + .slider {
+	background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+	transform: translateX(26px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
 }

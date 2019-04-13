@@ -155,6 +155,18 @@ let shorturl = async () => {
 	}
 };
 sbtn.addEventListener("click", shorturl);
+document.querySelector('#go-to-options').addEventListener("click", function () {
+	if (chrome.runtime.openOptionsPage) {
+		chrome.runtime.openOptionsPage();
+	} else {
+		window.open(chrome.runtime.getURL('options.html'));
+	}
+});
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+if (currentTheme) {
+	document.documentElement.setAttribute('data-theme', currentTheme);
+}
 //fetch(endpoint + "/key", {
 //	method: 'DELETE',
 //});

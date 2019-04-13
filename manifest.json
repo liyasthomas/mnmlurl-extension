@@ -15,10 +15,14 @@
 		"default_icon": "icons/icon-48x48.png",
 		"default_popup": "popup.html"
 	},
-	"options_page": "options.html",
+	"options_ui": {
+		"page": "options.html",
+		"open_in_tab": false
+	},
 	"permissions": [
 		"activeTab",
 		"tabs",
+		"storage",
 		"http://*/*",
 		"https://*/*"
 	]
