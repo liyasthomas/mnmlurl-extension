@@ -18,29 +18,28 @@ body {
 	-webkit-user-select: none;
 	user-select: none;
 	text-align: center;
-	min-width: 320px;
 }
 
 a {
 	text-decoration: none;
 	color: inherit;
-}
-
-p {
-	color: #aaa;
+	display: inline-flex;
+	align-items: center;
 }
 
 .main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 600px;
-	margin: 0 auto;
+	min-width: 320px;
 }
 
 header {
 	display: flex;
+	width: 100%;
 	align-items: center;
+	justify-content: space-between;
+	padding: 0 16px 0 16px;
 }
 
 .form {
@@ -59,7 +58,6 @@ input {
 #sucess {
 	line-height: 2.5;
 	color: #fff;
-	width: 100%;
 }
 
 #erbox {
@@ -86,7 +84,6 @@ button {
 }
 
 .spinning {
-	display: inline-block;
 	animation: rotate360 1s infinite ease;
 }
 
