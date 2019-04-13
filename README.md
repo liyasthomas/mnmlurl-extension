@@ -50,24 +50,24 @@ What things you need to install the extension and how to install them.
 1. Download the [latest release](https://github.com/liyasthomas/mnmlurl-extension/releases/latest) on this repository.
 2. Unzip.
 3. Load extension locally on your computer:
-	> ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) **Chrome:**
+	> ### ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_32x32.png) **Chrome:**
 
 		1. Visit: chrome://extensions
 		2. Enable "Developer mode".
 		3. Click: Load unpacked > choose extension's folder > Ok.
 
-	> ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) **Firefox:** [Download add-on](https://addons.mozilla.org/en-US/firefox/addon/mnmlurl)
+	> ### ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_32x32.png) **Firefox:** [Download add-on](https://addons.mozilla.org/en-US/firefox/addon/mnmlurl)
 
 		1. Visit: about:debugging
 		2. Click: Load Temporary Add-on > choose manifest.json within the extension's folder > Ok.
 
-	> ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) **Opera:** [Download extension](https://addons.opera.com/en/extensions/details/mnmlurl)
+	> ### ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_32x32.png) **Opera:** [Download extension](https://addons.opera.com/en/extensions/details/mnmlurl)
 
 		1. Visit: opera://extensions
 		2. Enable "Developer mode".
 		3. Click: Load unpacked > choose extension's folder > Ok.
 
-	> ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) **Edge:**
+	> ### ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_32x32.png) **Edge:**
 
 		1. Visit: about:flags
 		2. Check the "Enable extension developer features".
