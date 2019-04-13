@@ -23,7 +23,7 @@ When I wrote this, only God and I understood what I was doing. Now, only God kno
 
 :eyeglasses: **Free and open source.**: [mnmlurl](https://mnmlurl.ml) is a modern URL shortener with support for custom alias.
 
-:heart: **Custom alias support**: Choose your own alias or get a random one!
+:globe_with_meridians: **Custom alias support**: Choose your own alias or get a random one!
 
 :electric_plug: **Lighting fast**: No ads, no logging, no BS!
 
@@ -42,15 +42,34 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the extension and how to install them.
 
 * Internet connection
-* Chrome browser
+* Browser
 * [Wonder](https://en.wikipedia.org/wiki/Wonder_(emotion))! :heart:
 
 ### Installing
 
 1. Download the whole zip/clone the repository.
 2. Unzip.
-3. Goto: Chrome > Options > More tools > Extensions.
-4. Click: Load unpacked > (choose unziped folder) > Ok.
+3. Load your extension locally on your computer:
+
+	**Chrome:**
+		1. Visit: [chrome://extensions](chrome://extensions)
+		2. Enable "Developer mode".
+		3. Click: Load unpacked > choose extension's folder > Ok.
+
+	**Firefox:**
+		1. Visit: [about:debugging](about:debugging)
+		2. Click: Load Temporary Add-on > choose manifest.json within the extension's folder > Ok.
+
+	**Opera:**
+		1. Visit: [opera://extensions](chrome://extensions)
+		2. Enable "Developer mode".
+		3. Click: Load unpacked > choose extension's folder > Ok.
+
+	**Edge:**
+		1. Visit: [about:flags](about:debugging)
+		2. Check the "Enable extension developer features".
+		3. Click on "…" in the Edge’s navigation bar > Extensions
+		4. Click: Load extension > choose extension's folder > Ok.
 5. Done!
 
 ---
@@ -60,6 +79,7 @@ What things you need to install the extension and how to install them.
 * **[Chromium](https://github.com/chromium/chromium)** - Thanks for being so fast!
 * HTML - For the web framework
 * CSS - For styling components
+* JavaScript - For magic!
 
 ---
 
