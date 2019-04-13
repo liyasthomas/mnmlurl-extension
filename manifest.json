@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "mnmlurl",
-	"description": "minimal url - not the url you deserve, but the url you need",
+	"description": "Minimal URL is a modern URL shortener with support for custom alias",
 	"author": "Liyas Thomas",
 	"version": "0.1.1",
 	"homepage_url": "https://mnmlurl.ml",

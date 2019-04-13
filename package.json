@@ -1,0 +1,16 @@
+{
+	"name": "mnmlurl",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/liyasthomas/mnmlurl-extension.git"
+	},
+	"description": "Minimal URL is a modern URL shortener with support for custom alias",
+	"author": "Liyas Thomas",
+	"version": "0.1.1",
+	"devDependencies": {
+		"jshint": "^2.8.0"
+	},
+	"scripts": {
+		"test": "jshint travis.js"
+	}
+}
