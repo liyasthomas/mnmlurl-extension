@@ -3,7 +3,7 @@
 	"name": "mnmlurl",
 	"description": "minimal url - not the url you deserve, but the url you need",
 	"author": "Liyas Thomas",
-	"version": "0.0.1",
+	"version": "0.1.1",
 	"homepage_url": "https://mnmlurl.ml",
 	"icons": {
 		"16": "icons/icon-16x16.png",

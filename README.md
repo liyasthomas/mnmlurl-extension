@@ -47,7 +47,7 @@ What things you need to install the extension and how to install them.
 
 ### Installing
 
-1. Download the latest [release on this repository](https://github.com/liyasthomas/mnmlurl-extension/releases/latest).
+1. Download the [latest release](https://github.com/liyasthomas/mnmlurl-extension/releases/latest) on this repository.
 2. Unzip.
 3. Load extension locally on your computer:
 	> **Chrome:**
