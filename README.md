@@ -19,6 +19,12 @@ When I wrote this, only God and I understood what I was doing. Now, only God kno
 
 ### :information_desk_person: Browser extension for mnmlurl by [Liyas Thomas](https://github.com/liyasthomas)
 
+<div align="center">
+  <br>
+  <img src="icons/screely.png" alt="AEIOU" width="100%">
+  <br>
+</div>
+
 ### Features :sparkles:
 
 :eyeglasses: **Free and open source.**: [mnmlurl](https://mnmlurl.ml) is a modern URL shortener with support for custom alias.
@@ -50,24 +56,24 @@ What things you need to install the extension and how to install them.
 1. Download the [latest release](https://github.com/liyasthomas/mnmlurl-extension/releases/latest) on this repository.
 2. Unzip.
 3. Load extension locally on your computer:
-	> ## ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_32x32.png) **Chrome:**
+	> # ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_32x32.png) **Chrome:**
 
 		1. Visit: chrome://extensions
 		2. Enable "Developer mode".
 		3. Click: Load unpacked > choose extension's folder > Ok.
 
-	> ## ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_32x32.png) **Firefox:** [Download add-on](https://addons.mozilla.org/en-US/firefox/addon/mnmlurl)
+	> # ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_32x32.png) **Firefox:** [Download add-on](https://addons.mozilla.org/en-US/firefox/addon/mnmlurl)
 
 		1. Visit: about:debugging
 		2. Click: Load Temporary Add-on > choose manifest.json within the extension's folder > Ok.
 
-	> ## ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_32x32.png) **Opera:** [Download extension](https://addons.opera.com/en/extensions/details/mnmlurl)
+	> # ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_32x32.png) **Opera:** [Download extension](https://addons.opera.com/en/extensions/details/mnmlurl)
 
 		1. Visit: opera://extensions
 		2. Enable "Developer mode".
 		3. Click: Load unpacked > choose extension's folder > Ok.
 
-	> ## ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_32x32.png) **Edge:**
+	> # ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_32x32.png) **Edge:**
 
 		1. Visit: about:flags
 		2. Check the "Enable extension developer features".
@@ -122,7 +128,7 @@ See the [CHANGELOG](CHANGELOG.md) file for details.
 * [Liyas Thomas](https://github.com/liyasthomas)
 
 ### Thanks
-* [Sample](https://www.google.com) - For [Sample](https://www.google.com)
+* [Google](https://www.google.com) - For samples
 
 See the list of [contributors](https://github.com/liyasthomas/mnmlurl-extension/graphs/contributors) who participated in this project.
 
