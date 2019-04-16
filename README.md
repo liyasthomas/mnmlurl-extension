@@ -21,7 +21,7 @@ When I wrote this, only God and I understood what I was doing. Now, only God kno
 
 <div align="center">
   <br>
-  <img src="icons/screely.png" alt="AEIOU" width="100%">
+  <img src="icons/screely.png" alt="mnmlurl-extension" width="100%">
   <br>
 </div>
 
