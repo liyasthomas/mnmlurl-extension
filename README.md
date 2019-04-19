@@ -67,7 +67,7 @@ What things you need to install the extension and how to install them.
 		1. Visit: about:debugging
 		2. Click: Load Temporary Add-on > choose manifest.json within the extension's folder > Ok.
 
-	> # ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_32x32.png) **Opera:** [Download extension](https://addons.opera.com/en/extensions/details/mnmlurl)
+	> # ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_32x32.png) **Opera:**
 
 		1. Visit: opera://extensions
 		2. Enable "Developer mode".
