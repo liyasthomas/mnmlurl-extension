@@ -1,12 +1,10 @@
-window.browser = (function () {
-	return window.msBrowser ||
-		window.browser ||
-		window.chrome;
-})();
+window.browser = (() => window.msBrowser ||
+	window.browser ||
+	window.chrome)();
 browser.tabs.query({
 	active: true,
 	currentWindow: true
-}, function (tabs) {
+}, tabs => {
 	document.getElementById("urlinput").value = tabs[0].url;
 });
 const erbox = document.getElementById("erbox");
@@ -27,7 +25,7 @@ let pushJSON = (url, data) => {
 let cinp = () => {
 	erbox.innerHTML = "";
 	let cival = custominput.value;
-	let res = JSON.parse(fetchJSON(endpoint + '/' + cival));
+	let res = JSON.parse(fetchJSON(`${endpoint}/${cival}`));
 	let data = res.result;
 	if (data != null) {
 		return false;
@@ -56,7 +54,7 @@ let genhash = () => {
 };
 let check_is_unique = () => {
 	let url = window.location.hash.substr(1);
-	let res = JSON.parse(fetchJSON(endpoint + '/' + url));
+	let res = JSON.parse(fetchJSON(`${endpoint}/${url}`));
 	let data = res.result;
 	if (data != null) {
 		genhash();
@@ -89,12 +87,12 @@ let copyer = (containerid) => {
 };
 let send_request = (url) => {
 	let myurl = url;
-	let address = endpoint + "/" + window.location.hash.substr(1);
+	let address = `${endpoint}/${window.location.hash.substr(1)}`;
 	let hash = window.location.hash.substr(1);
 	// console.log(address)
 	pushJSON(address, myurl);
 	output.style.display = "block";
-	shortenedURL.value = "https://mnmlurl.ml/#" + hash;
+	shortenedURL.value = `https://mnmlurl.ml/#${hash}`;
 	copyer("shortenedURL");
 	sucess.innerHTML = "Short url copied to clipboard 🚀";
 	rotate.classList.remove("spinning");
@@ -163,7 +161,7 @@ let shorturl = async () => {
 	}
 };
 sbtn.addEventListener("click", shorturl);
-document.querySelector('#go-to-options').addEventListener("click", function () {
+document.querySelector('#go-to-options').addEventListener("click", () => {
 	if (browser.runtime.openOptionsPage) {
 		browser.runtime.openOptionsPage();
 	} else {
