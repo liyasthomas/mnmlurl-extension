@@ -3,7 +3,7 @@
 	"name": "mnmlurl",
 	"description": "Minimal URL is a modern URL shortener with support for custom alias",
 	"author": "Liyas Thomas",
-	"version": "0.1.1",
+	"version": "0.1.5",
 	"homepage_url": "https://mnmlurl.ml",
 	"icons": {
 		"16": "icons/icon-16x16.png",

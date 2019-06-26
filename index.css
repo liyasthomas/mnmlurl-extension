@@ -12,7 +12,8 @@
 	box-sizing: border-box;
 	outline: 0;
 	border: 0;
-	font-family: 'Nunito', 'Roboto', 'Noto', sans-serif;
+	font-family: 'Poppins', 'Roboto', 'Noto', sans-serif;
+	font-weight: 700;
 }
 
 body {
