@@ -12,41 +12,41 @@
 	box-sizing: border-box;
 	outline: 0;
 	border: 0;
-	font-family: 'Poppins', 'Roboto', 'Noto', sans-serif;
 	font-weight: 700;
+	font-family: 'Poppins', 'Roboto', 'Noto', sans-serif;
 }
 
 body {
 	margin: 0;
+	background-color: var(--bg-color);
+	color: var(--font-color);
+	text-align: center;
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	user-select: none;
-	text-align: center;
-	background-color: var(--bg-color);
-	color: var(--font-color);
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
 	display: inline-flex;
+	color: inherit;
+	text-decoration: none;
 	align-items: center;
 }
 
 .main {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	min-width: 320px;
+	align-items: center;
 }
 
 header {
 	display: flex;
+	padding: 0 16px 0 16px;
 	width: 100%;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 16px 0 16px;
 }
 
 .form {
@@ -56,10 +56,10 @@ header {
 input {
 	padding: 16px;
 	width: 100%;
-	font-size: 16px;
-	font-weight: bold;
 	background-color: var(--bg-color);
 	color: var(--font-color);
+	font-weight: bold;
+	font-size: 16px;
 }
 
 svg {
@@ -69,8 +69,8 @@ svg {
 #erbox,
 #alias,
 #sucess {
-	line-height: 2.5;
 	color: #fff;
+	line-height: 2.5;
 }
 
 #erbox {
@@ -88,12 +88,12 @@ svg {
 button {
 	width: 100%;
 	height: 54px;
-	font-size: 18px;
-	cursor: pointer;
 	background: linear-gradient(120deg, #12c2e9, #c471ed, #f64f59);
 	color: #fff;
-	font-weight: bold;
 	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
 }
 
 .spinning {
@@ -111,10 +111,10 @@ button {
 }
 
 .theme-switch {
-	display: inline-block;
-	height: 32px;
 	position: relative;
+	display: inline-block;
 	width: 60px;
+	height: 32px;
 }
 
 .theme-switch input {
@@ -122,25 +122,25 @@ button {
 }
 
 .slider {
-	background-color: #ccc;
-	bottom: 0;
-	cursor: pointer;
-	left: 0;
 	position: absolute;
-	right: 0;
 	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #ccc;
+	cursor: pointer;
 	transition: .2s;
 }
 
 .slider:before {
-	background-color: #fff;
-	bottom: 4px;
-	content: "";
-	height: 24px;
-	left: 4px;
 	position: absolute;
-	transition: .2s;
+	bottom: 4px;
+	left: 4px;
 	width: 24px;
+	height: 24px;
+	background-color: #fff;
+	content: "";
+	transition: .2s;
 }
 
 input:checked + .slider {
